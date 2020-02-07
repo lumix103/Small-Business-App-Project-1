@@ -235,7 +235,9 @@ void write_sales()
 	time_t ttime = time(0);
 	char* time = ctime(&ttime);
 	string stime(time);
+	stime.pop_back(); //There is a newline that is added along to 'time' when using ctime which messes up the output file.
 	replace(stime.begin(), stime.end(), ':', '_');
+	stime += ".txt";
 	if (purchase_info.size() != 0) {
 		try {
 
