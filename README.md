@@ -1,5 +1,6 @@
 # Small Business App Project
 This is my project for my CIS-17a class.
+Out of the many types of small business project I was given then option to make I have choosen the car wash project.
 ## Project Requirements
 1. Comments.
 2. Appropiate data types.
